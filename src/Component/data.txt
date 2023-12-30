@@ -1,0 +1,189 @@
+
+    "Classic Chocolate Shake",
+
+    "Strawberry Bliss",
+
+    "Mango Tango Delight",
+ 
+    "Peanut Butter Power Shake",
+
+    "Cookies and Cream Crush",
+ 
+    "Green Goddess Smoothie",
+
+    "Caramel Coffee Crunch",
+
+    "Vanilla Almond Joy",
+
+    "Pineapple Paradise Punch",
+
+    "Choco-Berry Blast",
+
+    "Classic Cheesecake",
+
+    "Molten Lava Chocolate Cake",
+
+    "Strawberry Shortcake",
+
+    "Pecan Pie Delight",
+
+    "Tiramisu Dream",
+ 
+    "Banana Caramel Crunch",
+
+    "Lemon Meringue Pie",
+ 
+    "Red Velvet Cupcakes",
+
+    "Blueberry Bliss Tart",
+
+    "Coconut Cream Pie",
+
+    "Paneer Butter Masala",
+
+    "Chicken Biryani",
+ 
+    "Aloo Gobi",
+
+    "Butter Chicken",
+
+    "Dosa with Sambar",
+
+    "Rajma Chawal",
+ 
+    "Fish Curry",
+
+    "Vegetable Biryani",
+  
+    "Palak Paneer",
+
+    "Chole Bhature",
+
+    "Sushi",
+
+    "Pizza Margherita",
+
+    "Pad Thai",
+
+    "Tacos",
+
+    "Paella",
+
+    "Baba Ganoush",
+
+    "Pho",
+
+    "Butter Chicken",
+
+    "Moussaka",
+
+    "Kimchi Fried Rice",
+
+    "Ceviche",
+
+    "Chicken Adobo",
+
+    "Beef Stroganoff",
+ 
+    "Goulash",
+
+    "Poutine",
+
+    "Couscous Salad",
+
+    "Tom Yum Soup",
+ 
+    "Ratatouille",
+ 
+    "Chicken Satay",
+
+    "Fish and Chips",
+
+    "Caesar Salad",
+
+    "Greek Salad",
+
+    "Caprese Salad",
+
+    "Chicken Avocado Salad",
+
+    "Quinoa Salad",
+
+
+
+{/* <div className="row row-cols-3 my-2 mx-2">
+                <div >
+                    <div className="card my-1 mx-1 " style={{ width: "18rem" }}>
+                        <img src="..." className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">card my-1 mx-1title</h5>
+                            <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+                <div ><div className="card my-1 mx-1" style={{ width: "18rem" }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">card my-1 mx-1title</h5>
+                        <p className="card-text">Some quick example text to build on the card my-1 mx-1title and make up the bulk of the card's content.</p>
+                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div></div>
+            </div> */ }
