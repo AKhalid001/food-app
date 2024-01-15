@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 export const Signup = () => {
@@ -9,6 +9,7 @@ export const Signup = () => {
         border: "3px solid black",
         background: "#e6e6e6",
     }
+    const Cuisine = useNavigate()
 
     return (
         <div className='container my-3'style={SignupStyle}>
@@ -84,7 +85,7 @@ export const Signup = () => {
                     <input type="text" className="form-control" id="inputZip" />
                 </div>
                 <div className="col-12 mx-2 my-2">
-                    <Link to="/Cuisine"><button type="submit" className="btn  btn-primary" >Sign up</button></Link>
+                <button className="btn btn-primary" onClick={()=> {Cuisine("/Cuisine")}} >Sign up</button>
                 </div>
             </form>
         </div>

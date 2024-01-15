@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 export const Login = () => {
@@ -8,10 +8,9 @@ export const Login = () => {
         height: "77vh",
         border: "3px solid black",
         background: "#e6e6e6",
-
-
-
     }
+    const Cuisine = useNavigate()
+
     return (
 
         <div className='container my-3' style={loginStyle}>
@@ -31,7 +30,7 @@ export const Login = () => {
                     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                     <label className="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <Link to="/Cuisine"><button type="submit" className="btn btn-sm btn-primary" >Log in</button></Link>
+                <button className="btn btn-primary" onClick={()=> {Cuisine("/Cuisine")}} >Login</button>
             </form>
         </div>
     )

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu } from './Menu';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -20,6 +20,7 @@ export const Dessert = () => {
     const [item, setItem] = useState(Menu)
     const [dt , setdt ] = useState("Dessert")
     const newMenu = item.filter(item => item.category === dt)
+    const Order = useNavigate()
 
     return (
         <div className="grid text-center ">
@@ -43,7 +44,7 @@ export const Dessert = () => {
                                 <p className="card-text"> "{ingredients}"</p>
                                 <p className="card-text">Rating: {rating}</p>
                                 <p className="card-text">Price ($): {price}</p>
-                                <Link to="/Order" className="btn btn-primary" >Order</Link>
+                                <button to="/Order" className="btn btn-primary" onClick={()=> {Order("/Order")}} >Order</button>
                                 
                             </div>
 
